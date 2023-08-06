@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+
+#sidebar {
+  width: 270px;
+  position: fixed;
+  height: 100vh;
+  z-index: 999;
+  background: #7386d5;
+  color: #fff;
+  transition: all 0.3s;
+ 
+}
+
+#img-profile{
+    margin-left: 30px;
+}
+
+li {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
