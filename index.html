@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vanilla Weather App</title>
+    <title>My Portfolio Website</title>
     <meta charset="UTF-8" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
@@ -9,7 +9,22 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -18,17 +33,82 @@
         <img
           src="https://cdn-icons-png.flaticon.com/512/6915/6915987.png"
           width="100"
-          class="rounded-circle mb-3 mt-5 " id="img-profile"
+          class="rounded-circle mb-3 mt-5"
+          id="img-profile"
         />
-         <ul class="list-unstyled mt-3">
-            <li><a href="#section1">Personal Information</a></li>
-            <li><a href="#section2">Experience</a></li>
-            <li><a href="#section3">Education</a></li>
-            <li><a href="#section4">Achievements</a></li>
-            <li><a href="#section5">Interests</a></li>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#section1">Personal Information</a></li>
+          <li><a href="#section2">Experience</a></li>
+          <li><a href="#section3">Education</a></li>
+          <li><a href="#section4">Achievements</a></li>
+          <li><a href="#section5">Interests</a></li>
         </ul>
       </nav>
 
+      <!--Content here-->
+      <div id="content">
+        <div class="p-4 my-container">
+          <button class="btn my-4" id="menu-btn">Toggle Sidebar</button>
+          <section id="section1">
+            <header class="row">
+              <div class="col">
+                <h1>Myo Pa Pa Kyaw</h1>
+              </div>
+            </header>
+            <div class="row">
+              <div class="col-6">
+                <b>Email Address</b><br />
+                <span>65011368@kmitl.ac.th</span>
+              </div>
+              <div class="col-6">
+                <b>Address</b><br />
+                <span>KMITL Student Dormitory</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <b>Phone Number</b><br />
+                <span>09-45073029</span>
+              </div>
+              <div class="col-6">
+                <b>Web</b><br />
+                <span class="intro-font">KMITL Student Dormitory</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>
+                  This is a paragraph below the two rows of columns.This is a
+                  paragraph below the two rows of columns.This is a paragraph
+                  below the two rows of columns. This is a paragraph below the
+                  two rows of columns.This is a paragraph below the two rows of
+                  columns.This is a paragraph below the two rows of columns.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
+    <script src="src/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Popper.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
   </body>
 </html>
