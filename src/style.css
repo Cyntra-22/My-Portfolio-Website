@@ -114,3 +114,7 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
+.section4_spacing{
+    padding-bottom: 200px;
+}
+
