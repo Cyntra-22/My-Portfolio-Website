@@ -70,10 +70,24 @@ p {
     font-weight: 300;
 }
 
+#nameSpacing_Edu{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
 .paraSpacing{
     padding-top: 20px;
     padding-bottom: 75px;
 }
+
+.paraSpacing_Edu{
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+
 
 .my-container b{
     font-size: 20px ;
