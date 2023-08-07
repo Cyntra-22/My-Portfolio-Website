@@ -1,13 +1,4 @@
-var menuBtn = document.querySelector("#menu-bar");
-var sideBar = document.querySelector("#sidebar");
-var container = document.querySelector("#my-container");
-
-menuBtn.addEventListener("click", () =>{
-    sideBar.classList.toggle("active-nav")
-    container.classList.toggle("active-content");
-})
-
- function shareOnFacebook() {
+function shareOnFacebook() {
    const urlToShare = "https://fantastic-praline-34322e.netlify.app/";
    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
      urlToShare

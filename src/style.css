@@ -5,16 +5,18 @@
 
 #sidebar {
   width: 330px;
-  position: fixed;
+  background-color: rgb(134, 134, 134);
   height: 100vh;
-  z-index: 999;
-  background: #4b4c54;
-  color: #fff;
-  transition: all 0.3s;
+  float: left;
+  position: fixed;
 }
 
-#img-profile {
-  margin-left: 60px;
+sidebar {
+  background: #4b4c54;
+}
+
+.img-profile {
+  padding-left: 50px;
 }
 
 li {
@@ -31,14 +33,6 @@ li a {
 .my-container {
   transition: 0.4s;
   margin-left: 450px;
-}
-
-.active-nav {
-  margin-left: 0;
-}
-
-.active-content {
-  margin-left: 270px;
 }
 
 #menu-btn {
@@ -124,5 +118,17 @@ a:focus {
 }
 
 .btn-default {
-      box-shadow: 1px 2px 5px #c56b6b;   
-  }
+  box-shadow: 1px 2px 5px #c56b6b;
+}
+
+.contact-icon-container {
+  display: inline;
+}
+
+.sidebar-contact{
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+
+
