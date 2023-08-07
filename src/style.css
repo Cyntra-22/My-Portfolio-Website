@@ -4,7 +4,7 @@
 }
 
 #sidebar {
-  width: 350px;
+  width: 330px;
   position: fixed;
   height: 100vh;
   z-index: 999;
@@ -14,12 +14,12 @@
 }
 
 #img-profile {
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 li {
   padding-left: 40px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 li a {
