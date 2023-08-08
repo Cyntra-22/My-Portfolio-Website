@@ -11,6 +11,8 @@
   position: fixed;
 }
 
+
+
 sidebar {
   background: #4b4c54;
 }
@@ -54,7 +56,11 @@ p {
   font-size: 1.3em;
   font-weight: 300;
   line-height: 1.7em;
-  color: white;
+  color: rgb(232, 246, 247);
+}
+
+.intro_font{
+  color: rgb(6, 37, 44);
 }
 
 #nameSpacing {
@@ -121,14 +127,8 @@ a:focus {
   box-shadow: 1px 2px 5px #c56b6b;
 }
 
-.contact-icon-container {
-  display: inline;
+.web:hover{
+  text-decoration: underline;
 }
-
-.sidebar-contact{
-  padding-top: 100px;
-  padding-left: 60px;
-}
-
 
 
